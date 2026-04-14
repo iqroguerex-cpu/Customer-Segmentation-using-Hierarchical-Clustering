@@ -20,7 +20,7 @@ st.title("🛍️ Customer Segmentation using Hierarchical Clustering")
 # -----------------------------
 @st.cache_data
 def load_data():
-    url = "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/Mall_Customers.csv"
+    url = "https://raw.githubusercontent.com/iqroguerex-cpu/Customer-Segmentation-using-Hierarchical-Clustering/main/Mall_Customers.csv"
     return pd.read_csv(url)
 
 dataset = load_data()
